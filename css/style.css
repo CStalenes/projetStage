@@ -1,0 +1,227 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    bottom: 0;
+    font-family: sans-serif;
+    line-height: 1.5;
+    
+}
+
+/*
+img{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+
+}
+*/
+
+
+/*
+.home{
+    background: url("../images/fond.jpg");
+}
+*/
+
+/*
+#for-index{
+    text-align: center;
+}
+*/
+
+footer{
+    flex-shrink: 0;
+    border-top: 1px dashed #000;
+    width: 100%;
+    background: #f1f1f1;
+    color: #333;
+}
+
+.footer2{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 20px;
+    padding: 50px 0 100px;
+}
+
+.monblock{
+    width: 25%;
+    margin: 0 30px;
+}
+
+.footer-service,
+.footer-contact,
+.footer-media {
+    font-size: 25px;
+    padding-bottom: 20px;
+
+}
+
+.footer-contact p{
+    padding: 5px 0;
+}
+
+.lst-service,
+.lst-media{
+    list-style-type: none;
+}
+
+
+.lst-service li {
+    padding: 2px 0;
+}
+
+.lst-service a{
+    text-decoration: none;
+    color:#333;
+}
+
+
+.lst-service a:hover{
+    color: rgb(3,3,3);
+}
+
+
+#mail a{
+    text-decoration: none;
+    color:#333;
+}
+
+
+#mail a:hover{
+    color: rgb(3,3,3);
+}
+
+
+.lst-media{
+    position: relative;
+    right: 10px;
+}
+
+.lst-media img{
+    width: 40px;
+    margin: 10px 10px;
+}
+
+
+.lst-media a{
+    text-decoration: none;
+    color:#333;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+
+
+/*
+@media screen and (max-width: 1500px) {
+
+    .footer2{
+        width: 700px;
+        flex-wrap: wrap;
+    }
+
+    .monblock{
+        width: 40%;
+        margin:  0 0;
+    }
+
+    .monblock:nth-child(1),
+    .monblock:nth-child(2){
+
+        margin-bottom: 50px;
+
+    }
+    
+}
+
+*/
+
+
+/*
+@media screen and (max-width: 800px){
+
+    .footer2{
+        width: 320px;
+    }
+    .monblock{
+        width: 300px;
+        margin: 30px 30px;
+    }
+
+    
+    .monblock:nth-child(1),
+    .monblock:nth-child(2){
+
+        margin-bottom: 30px;
+
+    }
+
+
+    
+    .monblock:nth-child(1){
+
+        margin-top: 0;
+
+    }
+
+
+}
+*/
+
+
+/*
+.top-nav{
+    display: block;
+
+}
+
+.top-nav ul{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 6%;
+    top: 2%;
+
+}
+
+.top-nav ul li{
+    display: inline-block;
+    margin-left: 28px;
+}
+
+
+.top-nav ul li a{
+    color:black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+.top-nav ul li a:hover{
+    color:#afafaf;
+    transition:0.15s ease-in;
+}
+*/
+
+
+
+/*
+#section-landing{
+    background: url('../images/fond.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+*/
+
+
+
